@@ -13,5 +13,6 @@ public class TestaGrafo {
         grafo.adicionarAresta(2.0, "Inacio", "Kaik");
         grafo.adicionarAresta(2.0, "Kaik", "Guilherme");
         
+        grafo.buscaEmLargura();
     }
 }

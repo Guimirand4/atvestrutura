@@ -31,6 +31,15 @@ public class Vertice<TIPO> {
         public void adicionarArestaSaida(Aresta<TIPO> aresta){
         this.arestaSaida.add(aresta);
     }
+
+    public ArrayList<Aresta<TIPO>> getArestaEntrada() {
+        return arestaEntrada;
+    }
+
+    public ArrayList<Aresta<TIPO>> getArestaSaida() {
+        return arestaSaida;
+    }
+    
     
     
 }
